@@ -1,0 +1,146 @@
+/* BACKGROUND:
+LINEAR-GRADIENT(-120DEG,
+#4285F4, #34A853, #FBBC05, #EA4335); */
+body {
+    margin: 0;
+    background-image: repeating-linear-gradient(#ad4928ab, #DD723C, #FC7001, #f39447);
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+    color: #270431;
+}
+p{
+    line-height: 2;
+    font-family: 'Grandstander', cursive;
+}
+hr {
+    border-style: dotted none none;
+    border-width: 10px;
+    width: 5%;
+    border-color: rgba(46, 29, 3, 0.466);
+      transition: all 1s;
+  }
+  hr:hover{
+      transform: scale(1.2);
+  }
+.top-container {
+    margin: 100px 10px 0px 25px;
+    position: relative;
+}
+
+.about-me {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me>h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+}
+
+.about-me>h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+}
+
+.top-flare {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width: 20%;
+}
+
+.bottom-flare {
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+.image-one {
+    border-radius: 3%;
+    box-shadow: 5px 3px 15px 5px;
+}
+.profile{
+    margin: 30px auto 30px auto;
+    width: 60%;
+}
+#myphoto{
+    border-radius: 50%;
+    width: 20%;
+}
+#more-detail{
+    width: 70%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.skills{
+    margin-top: 30px;
+}
+.skill-row {
+    width: 60%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coding {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.spring {
+    width: 25%;
+height: 20%;
+float: right;
+margin-left: 30px;
+}
+.contact-me{
+    width: 60%;
+    margin: 30px auto 60px auto;
+}
+.myButton {
+    margin-bottom: 25px;
+	box-shadow:inset 1px -1px 50px -1px #fa4646;
+	background:linear-gradient(to bottom, #f51b2d 5%, #bd7c2c 100%);
+	background-color:#f51b2d;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#1e0336;
+    font-family: 'Architects Daughter', cursive;
+	font-size:22px;
+	padding:11px 33px;
+	text-decoration:none;
+	text-shadow:1px 1px 8px #1e0336;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bd7c2c 5%, #f51b2d 100%);
+	background-color:#bd7c2c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+    BACKGROUND:LINEAR-GRADIENT(-120DEG,#4285F4, #34A853, #FBBC05, #EA4335);
+    padding:10px 0px 16px 0px;
+}
+.footer-link{
+    color: #270431;
+    font-family: 'Grandstander', cursive;
+    margin:0px 30px 0px 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #a36bd4;
+}
